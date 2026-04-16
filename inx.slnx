@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+  </Configurations>
+  <Project Path="Code/inx.csproj" />
+  <Project Path="Editor/inx.editor.csproj" />
+  <Folder Name="/Addons/">
+    <Project Path="F:/computer files/s&amp;box/addons/base/code/Base Library.csproj" />
+  </Folder>
+  <Folder Name="/Tools/">
+    <Project Path="F:/computer files/s&amp;box/addons/tools/Code/Base Editor Library.csproj" />
+    <Project Path="F:/computer files/s&amp;box/editor/ActionGraph/Code/actiongraph.csproj" />
+    <Project Path="F:/computer files/s&amp;box/editor/Hammer/Code/hammer.csproj" />
+    <Project Path="F:/computer files/s&amp;box/editor/MovieMaker/Code/moviemaker.csproj" />
+    <Project Path="F:/computer files/s&amp;box/editor/ShaderGraph/Code/shadergraph.csproj" />
+  </Folder>
+</Solution>
