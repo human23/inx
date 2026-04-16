@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<AssemblyName>inx.editor</AssemblyName>
+		<PackageId>inx.editor</PackageId>
+		<LangVersion>14</LangVersion>
+		<NoWarn>1701;1702;1591;</NoWarn>
+		<WarningsAsErrors></WarningsAsErrors>
+		<TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<DefineConstants>SANDBOX</DefineConstants>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<OutputPath>F:/computer files/s&box/.vs/output/</OutputPath>
+		<DocumentationFile>F:/computer files/s&box/.vs/output/inx.editor.xml</DocumentationFile>
+		<RootNamespace>Sandbox</RootNamespace>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="Sandbox.Internal.GlobalToolsNamespace" Static="true" />
+		<Using Include="Sandbox.Internal.GlobalGameNamespace" Static="true" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Analyzer Include="F:/computer files/s&box/bin/managed/Sandbox.CodeUpgrader.dll"/> 
+		<Analyzer Include="F:/computer files/s&box/bin/managed/Sandbox.Generator.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.System.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.Engine.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.Filesystem.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.Reflection.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.Mounting.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Microsoft.AspNetCore.Components.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.AppSystem.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.Tools.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.Compiling.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Microsoft.CodeAnalysis.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Microsoft.CodeAnalysis.CSharp.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Sandbox.Bind.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/Facepunch.ActionGraphs.dll"/> 
+		<Reference Include="F:/computer files/s&box/bin/managed/SkiaSharp.dll"/> 
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="F:/computer files/s&amp;box/editor/ActionGraph/Code/actiongraph.csproj" />
+		<ProjectReference Include="F:/computer files/s&amp;box/editor/Hammer/Code/hammer.csproj" />
+		<ProjectReference Include="../Code/inx.csproj" />
+		<ProjectReference Include="F:/computer files/s&amp;box/addons/tools/Code/Base Editor Library.csproj" />
+		<ProjectReference Include="F:/computer files/s&amp;box/editor/MovieMaker/Code/moviemaker.csproj" />
+		<ProjectReference Include="F:/computer files/s&amp;box/editor/ShaderGraph/Code/shadergraph.csproj" />
+	</ItemGroup>
+
+</Project>

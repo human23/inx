@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Editor": {
+      "commandName": "Executable",
+      "executablePath": "F:/computer files/s\u0026box/sbox-dev.exe",
+      "commandLineArgs": "-project \u0022C:\\Users\\human\\Documents\\s\u0026box projects\\inx\\inx.sbproj\u0022"
+    }
+  }
+}
